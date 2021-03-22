@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "esbuild index.ts --bundle --minify --outfile=app/index.js",
+    "serve": "esbuild index.ts --bundle --sourcemap --servedir=app --outdir=app "
+  },
+  "devDependencies": {
+    "esbuild": "^0.9.6"
+  }
+}
